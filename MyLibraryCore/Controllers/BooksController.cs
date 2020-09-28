@@ -100,6 +100,11 @@ namespace MyLibraryCore.Controllers
             return RedirectToAction("Index", "Books");
         }
 
+        public IActionResult NewIndex()
+        {
+            return View();
+        }
+
 
 
         //[NonAction]
